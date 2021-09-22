@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-22T09:52:15 IST" name="Default suite" finished-at="2021-09-22T09:54:05 IST" duration-ms="110320">
+    <groups>
+    </groups>
+    <test started-at="2021-09-22T09:52:15 IST" name="Default test" finished-at="2021-09-22T09:54:05 IST" duration-ms="110320">
+      <class name="com.sgtesting.dataprovider.Asignment4">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.dataprovider.Asignment4@51dcb805]" started-at="2021-09-22T09:52:15 IST" name="launchBrowser" finished-at="2021-09-22T09:52:32 IST" duration-ms="16720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.dataprovider.Asignment4@51dcb805]" started-at="2021-09-22T09:52:32 IST" name="navigate" finished-at="2021-09-22T09:52:57 IST" duration-ms="25114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login()[pri:3, instance:com.sgtesting.dataprovider.Asignment4@51dcb805]" started-at="2021-09-22T09:52:57 IST" name="login" finished-at="2021-09-22T09:53:25 IST" duration-ms="27808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer(java.lang.String)[pri:4, instance:com.sgtesting.dataprovider.Asignment4@51dcb805]" started-at="2021-09-22T09:53:25 IST" name="createCustomer" data-provider="getcreateCustomerData" finished-at="2021-09-22T09:53:44 IST" duration-ms="18537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Joe biden]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="modifycustomer()[pri:5, instance:com.sgtesting.dataprovider.Asignment4@51dcb805]" started-at="2021-09-22T09:53:44 IST" name="modifycustomer" finished-at="2021-09-22T09:53:55 IST" duration-ms="10988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycustomer -->
+        <test-method signature="deletecustomer()[pri:6, instance:com.sgtesting.dataprovider.Asignment4@51dcb805]" started-at="2021-09-22T09:53:55 IST" name="deletecustomer" finished-at="2021-09-22T09:54:01 IST" duration-ms="6524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecustomer -->
+        <test-method signature="logout()[pri:7, instance:com.sgtesting.dataprovider.Asignment4@51dcb805]" started-at="2021-09-22T09:54:01 IST" name="logout" finished-at="2021-09-22T09:54:05 IST" duration-ms="3791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApplication()[pri:8, instance:com.sgtesting.dataprovider.Asignment4@51dcb805]" started-at="2021-09-22T09:54:05 IST" name="closeApplication" finished-at="2021-09-22T09:54:05 IST" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.dataprovider.Asignment4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
