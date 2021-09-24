@@ -21,7 +21,7 @@ public class Assign1 {
 	{
 		try
 		{
-			System.setProperty("webdriver.chrome.driver","F:\\ExampleAutomation\\Automation\\Web-Automation\\Library\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","F:\\CurrentWorkSpace\\JulyAutomationMorningBatch\\Web-Automation\\Library\\drivers\\chromedriver.exe");
 			oBrowser=new ChromeDriver();
 			Thread.sleep(3000);
 			oBrowser.manage().window().maximize();
